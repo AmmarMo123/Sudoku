@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#errors{
+    color: rgb(240, 132, 132);
+}
+
+#puzzle {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#puzzle input {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+.initial-tile{
+    background-color: lightgray;
+}
+
+.horizontal-line{
+    border-bottom: 5px black solid;
+}
+
+.vertical-line{
+    border-right: 5px solid black;
+}
+
+.correct{
+    background-color: rgb(184, 243, 184);
+}
+
+.wrong{
+    background-color: rgb(248, 144, 144);
+}
